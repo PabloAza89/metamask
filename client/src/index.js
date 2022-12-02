@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Metamask from './Metamask';
+import Metamask from './Metamask.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

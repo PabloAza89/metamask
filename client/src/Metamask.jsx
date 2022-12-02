@@ -2,7 +2,7 @@ import './Metamask.css';
 require('@metamask/legacy-web3') // npm i @metamask/legacy-web3 ^2.0.0
 const Web3 = require('web3-eth'); // npm i web3-eth // ^1.8.1
 
-function App() {
+function Metamask() {
   const { web3 , ethereum } = window
     
   const InitPayButton = () => {
@@ -28,7 +28,7 @@ function App() {
   })}
  
   return (
-    <div className="App">     
+    <div className="Meta-App">     
       <div>
         <button className="pay-button" onClick={InitPayButton}>Pay</button>
         <div id="status"></div>    
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default Metamask;
