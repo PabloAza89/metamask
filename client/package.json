@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@metamask/inpage-provider": "^8.1.0",
     "@metamask/legacy-web3": "^2.0.0",
-    "@metamask/providers": "^10.2.1",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.1",
